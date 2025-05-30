@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+  - name: synthea
+    database: mcutini
+    schema: synthea
+    tables:
+      - name: patients
+      - name: conditions
+      - name: claims
